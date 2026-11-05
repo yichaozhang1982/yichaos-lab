@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yichaozhang1982.github.io/yichaos-lab/sitemap.xml

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>时间有限，合作发生 — Yichao's Lab · Story 001</title>
+  <meta name="description" content="当每个人的协作时间都一样有限，合作反而更持久。一则关于时序博弈、1,427 名参与者和 89 场实验的研究故事。">
+  <meta name="author" content="Yichao Zhang">
+  <meta name="theme-color" content="#f1eee4">
+  <meta property="og:site_name" content="Yichao's Lab">
+  <meta property="og:title" content="时间有限，合作发生 — Yichao's Lab">
+  <meta property="og:description" content="一则关于时间、博弈与合作的研究故事。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://yichaozhang1982.github.io/yichaos-lab/story-001.html">
+  <meta property="og:image" content="https://yichaozhang1982.github.io/yichaos-lab/assets/img/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Yichao's Lab 故事 001：时间有限，合作发生。">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://yichaozhang1982.github.io/yichaos-lab/story-001.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="story">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Yichao's Lab 首页">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Yichao's Lab</span>
+          <span class="brand-sub">Networks · Games · Time</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">实验室</a>
+        <a class="nav-link" href="story-001.html" aria-current="page">故事 001</a>
+        <a class="nav-link" href="index.html#research">研究</a>
+        <a class="nav-link" href="index.html#publications">论文</a>
+        <a class="nav-link" href="index.html#about">关于</a>
+        <a class="nav-cta" href="assets/paper/limitation-of-time.pdf" target="_blank" rel="noopener">论文 PDF <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="story-hero">
+        <div class="wrap wrap--wide">
+          <div class="story-kicker">
+            <span class="pill pill--signal">Story 001</span>
+            <span class="pill">时间与博弈</span>
+            <span class="pill pill--light">Peer-reviewed · IEEE TNSE 2025</span>
+          </div>
+
+          <h1 class="story-title">时间有限，<br><em>合作</em>发生。</h1>
+
+          <div class="story-deck">
+            <p class="story-deck-main">
+              我们总以为，合作取决于信任、声誉或惩罚。但一项覆盖 <strong>1,427 人</strong>、<strong>89 场</strong>在线实验的研究发现：仅仅给每个人的协作时间设一个相同的上限，就足以让合作在结构中维持得更久。
+            </p>
+            <div class="story-deck-side">
+              <strong>The short version</strong>
+              时间限制没有让人变得更高尚。它只是让“换一个伙伴”变得更贵，于是已有的关系，变得值得维护。
+            </div>
+          </div>
+
+          <div class="story-byline">
+            <span>撰文 · Yichao's Lab</span>
+            <span>基于 Y. Zhang et al.</span>
+            <span>10 分钟阅读</span>
+            <span>2025 · 第一则</span>
+          </div>
+
+          <figure class="story-hero-figure">
+            <div class="plate">
+              <button class="figure-button" type="button" data-lightbox data-full="assets/img/figure-02.png" data-caption="图 2 · 一轮时序博弈中的协作网络与通信日志。图中颜色对应不同伙伴；日志按请求发生的顺序排列。" aria-label="放大图 2：协作网络与通信日志">
+                <img src="assets/img/figure-02.png" alt="左侧是一张协作网络，Jerry、Alice、Tom、Frank 四个彩色节点被蓝色虚线标出；右侧是 12 条通信日志，记录请求、接受与拒绝。" width="1988" height="655">
+                <span class="zoom-hint">放大 <span aria-hidden="true">↗</span></span>
+              </button>
+            </div>
+            <figcaption>
+              <span class="fig-id">Fig. 2 / 论文原图</span>
+              <span class="fig-text">一轮博弈里，时间是如何被“约满”的。Alice 想约 Tom 一整天，但 Tom 已经答应了 Jerry 和 Frank；她转向另外两位朋友，只拿到 0.8T，剩下 0.2T 无处安放。</span>
+            </figcaption>
+          </figure>
+        </div>
+      </header>
+
+      <div class="wrap wrap--wide">
+        <div class="story-body">
+          <aside class="story-toc" aria-label="故事目录">
+            <p class="toc-label">In this story</p>
+            <ol class="toc-list">
+              <li><a href="#chapter-01">01 · 一个反直觉的问题</a></li>
+              <li><a href="#chapter-02">02 · 把时间放进博弈</a></li>
+              <li><a href="#chapter-03">03 · 24 小时实验室</a></li>
+              <li><a href="#chapter-04">04 · 一张网络里的一天</a></li>
+              <li><a href="#chapter-05">05 · 1,427 个人，89 场比赛</a></li>
+              <li><a href="#chapter-06">06 · 为什么稀缺让合作发生</a></li>
+              <li><a href="#chapter-07">07 · 故事之外</a></li>
+            </ol>
+            <div class="toc-progress">
+              <span class="num" data-toc-percent>0%</span>
+              read so far
+            </div>
+          </aside>
+
+          <div class="story-article">
+            <section class="chapter" id="chapter-01">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 01</p>
+                <h2>一个反直觉的问题</h2>
+              </div>
+
+              <p class="lead">先做一个思想实验。你的一天被压缩成 24 个单位。每和一个伙伴协作，就要从这 24 个单位里切走一块；切出去的时间不会回来。你会把它给谁？</p>
+
+              <p>在经典的合作研究里，时间通常不在场。两个人玩囚徒困境，合作或背叛，收益立刻结算；网络决定谁和谁相邻，关系可以一直存在。于是，“为什么合作没有被背叛淘汰”成了一个关于结构、声誉与策略的问题。</p>
+
+              <p>但现实里的协作不是瞬间完成的。联合申请一个项目，需要几个月；带学生做实验，需要一周又一周；哪怕只是认真回一封邮件，也要从同一天里切走一段时间。每个人的时间都有上限，而且这个上限对所有人都一样：一天只有 24 小时。</p>
+
+              <p>如果把这个约束放进博弈，直觉会说：时间越少，合作越难。毕竟，资源紧张会让人更自私，谈判更容易破裂，关系更难维持。</p>
+
+              <p>论文给出的答案却相反：<strong>当协作时间对每个人都同样有限时，合作水平被推高了。</strong></p>
+
+              <p>这不是一句道德寓言。它来自一个可以被写下来的模型，和一组持续了很长时间、由 1,427 个人参与的在线实验。</p>
+
+              <blockquote class="pullquote">
+                时间限制没有让人变得更高尚。它只是让“换一个伙伴”变得更贵。
+                <cite>Story 001 · 核心机制</cite>
+              </blockquote>
+            </section>
+
+            <section class="chapter" id="chapter-02">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 02</p>
+                <h2>把时间放进博弈</h2>
+              </div>
+
+              <p>研究者的做法很直接：给每一次互动分配一个持续时间，再让收益与这个时间成正比。</p>
+
+              <p>每个人每一轮拥有同样的总时间 <em>T</em>。如果 <em>i</em> 和 <em>j</em> 协作 <em>τ<sub>ij</sub></em> 小时，那么这段互动对 <em>i</em> 的收益，就是单位时间收益乘以 <em>τ<sub>ij</sub></em> / <em>T</em>。把所有伙伴的收益加起来，就是 <em>i</em> 这一轮的总收益。</p>
+
+              <div class="formula" aria-label="时序博弈的收益公式">
+                <i>Λ<sub>i</sub></i> = Σ<sub><i>j</i> ∈ <i>P<sub>i</sub></i></sub>
+                <span class="frac"><span><i>τ<sub>ij</sub></i></span><span><i>T</i></span></span>
+                · <i>s<sub>ij</sub></i>
+              </div>
+              <p class="formula-note">P<sub>i</sub> 是这一轮真正与 i 协作的伙伴集合；s<sub>ij</sub> 是两人这一轮的博弈收益。</p>
+
+              <p>博弈仍然是囚徒困境。互相合作得 <em>R</em> = 3，出卖合作者得 <em>T</em> = 5，互相背叛得 <em>P</em> = 1，被出卖时仍选择合作得 <em>S</em> = 0。区别只在于：这些数字现在会被时间缩放。</p>
+
+              <figure class="story-figure">
+                <div class="plate">
+                  <button class="figure-button" type="button" data-lightbox data-full="assets/img/figure-01.png" data-caption="图 1 · 时序博弈中的一轮。A：行动阶段；B：收益计算。每个人拥有 24 小时，收益与协作时长成正比。" aria-label="放大图 1：时序博弈的行动阶段与收益">
+                    <img src="assets/img/figure-01.png" alt="图 A 展示五个彩色人物之间的合作与背叛，以及 8 小时、16 小时的协作时长；图 B 展示每个人按时间比例计算出的收益，例如 8/24 乘 5 加 16/24 乘 3 等于 3.67。" width="1425" height="855" loading="lazy">
+                    <span class="zoom-hint">放大 <span aria-hidden="true">↗</span></span>
+                  </button>
+                </div>
+                <figcaption>
+                  <span class="fig-id">Fig. 1 / 论文原图</span>
+                  <span class="fig-text">一轮时序博弈。每个人拥有 24 小时；红色个体有四位邻居，但这一轮只与橙色和蓝色分别协作 16 小时和 8 小时。收益按时间比例结算，而不是按“是否发生关系”结算。</span>
+                </figcaption>
+              </figure>
+
+              <p>这张图里藏着一个容易被忽略的细节：红色个体有四位邻居，但并不是四位都在这一轮与他发生互动。关系存在，不等于时间存在。时间被谁占满、占了多少，才是这一轮真正发生的事。</p>
+
+              <p>更关键的是，时间是可以被拒绝的。一个人可以发出请求，但对方未必有空；一个人可以接受请求，但接受之后，这段时间就不能再给第三个人。每一次“好”，都是一次排他性的承诺。</p>
+
+              <div class="callout">
+                <p class="callout-label">Model note / 模型注脚</p>
+                <p>在人类实验中，每人每轮的时间被设为 <strong>1,440 个单位</strong>，对应现实中的一天（24 小时 × 60 分钟）。一轮持续 60 秒。这个数值本身不改变结论，只是让参与者更容易理解“时间”的含义。</p>
+              </div>
+            </section>
+
+            <section class="chapter" id="chapter-03">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 03</p>
+                <h2>24 小时实验室</h2>
+              </div>
+
+              <p>把上面这套规则变成你可以亲手拨动的表盘，会发生什么？</p>
+
+              <p>下面有四位伙伴，一天已经被平均分成四份。现在，一位新伙伴 Mira 想加入，她需要 2 小时。你的第一反应可能是“再挤一挤”。但时间不会变多，你只能从某个人那里拿回来。</p>
+
+              <div class="time-lab" id="time-lab">
+                <div class="time-lab-head">
+                  <h3>把你的 24 小时分出去</h3>
+                  <p>拖动滑块，重新分配一天。看看新关系要进来时，旧关系需要让出什么。</p>
+                </div>
+                <div class="time-lab-body">
+                  <div class="clock-wrap">
+                    <div class="clock" id="clock" role="img" aria-label="当前 24 小时分配圆盘">
+                      <div class="clock-center">
+                        <strong data-clock-total>24</strong>
+                        <span>of 24 hours</span>
+                      </div>
+                    </div>
+                    <div class="clock-key" id="clock-key" aria-hidden="true"></div>
+                  </div>
+
+                  <div class="allocator">
+                    <div class="alloc-row" data-id="jerry" data-name="Jerry" data-color="#2d63f2">
+                      <label class="alloc-name" for="alloc-jerry"><i aria-hidden="true"></i>Jerry</label>
+                      <input class="alloc-range" id="alloc-jerry" type="range" min="0" max="12" step="1" value="6" aria-label="分配给 Jerry 的小时数">
+                      <span class="alloc-value" data-value-for="jerry">6<small>h</small></span>
+                    </div>
+                    <div class="alloc-row" data-id="tom" data-name="Tom" data-color="#6f8f43">
+                      <label class="alloc-name" for="alloc-tom"><i aria-hidden="true"></i>Tom</label>
+                      <input class="alloc-range" id="alloc-tom" type="range" min="0" max="12" step="1" value="6" aria-label="分配给 Tom 的小时数">
+                      <span class="alloc-value" data-value-for="tom">6<small>h</small></span>
+                    </div>
+                    <div class="alloc-row" data-id="frank" data-name="Frank" data-color="#e4b33d">
+                      <label class="alloc-name" for="alloc-frank"><i aria-hidden="true"></i>Frank</label>
+                      <input class="alloc-range" id="alloc-frank" type="range" min="0" max="12" step="1" value="6" aria-label="分配给 Frank 的小时数">
+                      <span class="alloc-value" data-value-for="frank">6<small>h</small></span>
+                    </div>
+                    <div class="alloc-row" data-id="alice" data-name="Alice" data-color="#e14a27">
+                      <label class="alloc-name" for="alloc-alice"><i aria-hidden="true"></i>Alice</label>
+                      <input class="alloc-range" id="alloc-alice" type="range" min="0" max="12" step="1" value="6" aria-label="分配给 Alice 的小时数">
+                      <span class="alloc-value" data-value-for="alice">6<small>h</small></span>
+                    </div>
+
+                    <div class="time-readout">
+                      <span>已分配 <strong data-allocated>24 h</strong></span>
+                      <span>剩余 <strong data-remaining>0 h</strong></span>
+                    </div>
+                    <p class="time-lab-status" id="time-status" aria-live="polite"></p>
+                  </div>
+                </div>
+
+                <div class="time-lab-request" id="request-card">
+                  <div>
+                    <p class="request-title"><i aria-hidden="true"></i><span data-request-title>新请求：Mira · 2 小时</span></p>
+                    <p class="request-copy" data-request-copy>一位新伙伴想加入今天的协作。你的日程已经排满了吗？</p>
+                  </div>
+                  <div class="request-actions">
+                    <button class="button button--small" id="accept-request" type="button">接受这 2 小时</button>
+                    <button class="request-reset" id="reset-time" type="button">重置</button>
+                  </div>
+                </div>
+              </div>
+
+              <p>你刚刚遇到的，就是论文里的核心摩擦：时间已经被现有关系占满，新关系要进来，必须有人让出时间。而在真实系统中，你甚至不知道让出之后，新关系是否真的会稳定下来。</p>
+
+              <p class="kicker-line">注：这是一个概念演示，不是论文中的实验界面。24 小时设定与收益矩阵取自论文，四位伙伴的初始时间平均分配。</p>
+            </section>
+
+            <section class="chapter" id="chapter-04">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 04</p>
+                <h2>一张网络里的一天</h2>
+              </div>
+
+              <p>论文用图 2 讲了一个更具体的版本。</p>
+
+              <p>Alice 想和 Tom 协作一整天。她发出请求时，Tom 已经答应了 Jerry 和 Frank：0.4T 给 Jerry，0.6T 给 Frank。Tom 的一天满了。于是，他只能对 Alice 说“抱歉”。</p>
+
+              <p>Alice 转向 Frank 和 Jerry。两人都只能给出部分时间：各 0.4T。Alice 最终拿到 0.8T 的协作，还剩 0.2T。这 0.2T 不是她不想用，而是找不到人接住。</p>
+
+              <div class="callout">
+                <p class="callout-label">Read the log / 读日志</p>
+                <p>右侧通信日志里，第 8 条是 Alice 向 Tom 发出 T 的请求，第 10 条是 Tom 的“Sorry”。第 9、11、12 条则记录了 Alice 与 Frank、Jerry 的重新协商。请求、拒绝、改约，这些看似琐碎的动作，构成了时序博弈真正的“策略”。</p>
+              </div>
+
+              <p>如果把这张图放大到整个人群，会发生什么？</p>
+
+              <p>每个人都在用自己的时间表回应别人。一个人拒绝你，不一定是因为不喜欢你，可能只是因为他已经答应了别人。一个人接受你，也不一定是因为信任你，可能只是因为他刚好有空。关系的机会结构，被时间表重新排列了。</p>
+
+              <p>这正是模型想抓住的东西：<strong>网络不是背景板，时间是网络的一部分。</strong></p>
+
+              <blockquote class="pullquote">
+                每一次接受，都是一次排他性的承诺。每一次拒绝，也不一定是一次惩罚。
+                <cite>Chapter 04 · 时间表即结构</cite>
+              </blockquote>
+            </section>
+
+            <section class="chapter" id="chapter-05">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 05</p>
+                <h2>1,427 个人，89 场比赛</h2>
+              </div>
+
+              <p>模型可以很美，但人也可能完全不按模型行动。于是，研究团队把博弈搬到了网上。</p>
+
+              <p>他们开发了一个叫 <em>War of Strategies</em> 的在线平台。参与者被放进两类网络：一类是预生成的 BA 无标度网络和 WS 小世界网络；另一类是先花一分钟自由交友、随后冻结结构的自组织网络。每一场比赛，都是一轮接一轮的囚徒困境。</p>
+
+              <p>实验分为两种模式：一种是传统的“分而治之”（D&amp;C）博弈，时间不受硬性限制；另一种是时序博弈，每个人每一轮拥有同样有限的时间，请求需要被对方接受，时间一旦给出就不能反悔。</p>
+
+              <div class="stat-band" aria-label="实验规模">
+                <div class="stat">
+                  <strong data-count="1427">1,427</strong>
+                  <span>Human participants<br>人类参与者</span>
+                </div>
+                <div class="stat">
+                  <strong data-count="89">89</strong>
+                  <span>Online matches<br>在线比赛</span>
+                </div>
+                <div class="stat">
+                  <strong data-count="2">2</strong>
+                  <span>Network families<br>网络类型</span>
+                </div>
+                <div class="stat">
+                  <strong data-count="1440">1,440</strong>
+                  <span>Time units / round<br>每轮时间单位</span>
+                </div>
+              </div>
+
+              <p>其中，183 名参与者参加了 8 场预生成网络实验；1,244 名参与者参加了 81 场自组织网络实验。两组合计 1,427 人。大多数参与者来自同济大学、东南大学，以及第 13 届中国复杂网络会议（CCCN 2017）的参会者和学生。</p>
+
+              <div class="evidence-grid">
+                <div class="evidence-copy">
+                  <p class="mini-label">What the data show / 数据说了什么</p>
+                  <p>图 4 的 (a)(b) 是合作比例 <em>P<sub>c</sub></em> 随轮次的变化。蓝色是 D&amp;C 博弈，橙色是时序博弈。可以看到，两组合作都在衰减，但时序博弈衰减得更慢。</p>
+                  <p>(c)(d) 是平均可用时间 <em>S(r)</em>。它一直在一个很低的水平波动：当人类真的开始玩这个游戏，寻找新伙伴比模拟中更难。人们会主动调整请求去适配对方的日程，而模拟中的智能体并没有这种能力。</p>
+                  <p>作者也提醒了一个重要细节：合作整体上仍随轮次下降。部分原因是比赛轮数有限，参与者在十轮之后会猜测比赛快结束了，从而更倾向于背叛。时间限制改变的不是“合作永不衰退”，而是“合作衰退得更慢”。</p>
+                </div>
+
+                <figure class="story-figure" style="margin-block: 0;">
+                  <div class="plate">
+                    <button class="figure-button" type="button" data-lightbox data-full="assets/img/figure-04.png" data-caption="图 4 · 人类实验中的合作比例 Pc(r) 与平均可用时间 S(r)。(a)(b) 为 D&C 与时序博弈在 BA/WS 网络上的对比；(c)(d) 为时序博弈中的平均可用时间。" aria-label="放大图 4：人类实验中的合作与可用时间">
+                      <img src="assets/img/figure-04.png" alt="四象限散点图：上排是合作比例随轮次下降，下排是平均可用时间在低水平波动；不同颜色和形状代表不同比赛。" width="910" height="668" loading="lazy">
+                      <span class="zoom-hint">放大 <span aria-hidden="true">↗</span></span>
+                    </button>
+                  </div>
+                  <figcaption>
+                    <span class="fig-id">Fig. 4 / 论文原图</span>
+                    <span class="fig-text">人类实验中的合作比例与平均可用时间。点代表不同比赛（G1224、G646 等是比赛编号）。</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <p>在自组织网络中，研究者观察到了同方向的证据：只要平均可用时间仍然很低，合作就维持在一个较高水平；当可用时间开始上升，合作也随之松动。时间约束像是给关系加了一层“摩擦”，让合作不容易被一次背叛立刻冲散。</p>
+            </section>
+
+            <section class="chapter" id="chapter-06">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 06</p>
+                <h2>为什么稀缺让合作发生</h2>
+              </div>
+
+              <p>把论文的机制拆开，其实只有三步。</p>
+
+              <div class="mechanism">
+                <div class="mech-step">
+                  <span class="mech-num">01</span>
+                  <div>
+                    <h3>时间被占满，新请求就会失败</h3>
+                    <p>每个人的时间上限相同。接受一个请求，意味着拒绝其他可能性。请求失败不是因为对方恶意，而是因为他的时间表已经排满。</p>
+                  </div>
+                </div>
+                <div class="mech-step">
+                  <span class="mech-num">02</span>
+                  <div>
+                    <h3>找新伙伴，本身要花时间</h3>
+                    <p>新关系需要试探、协商、等待回应，而且未必成功。时间越稀缺，搜索新伙伴的机会成本越高。人会调整请求去适配对方的日程，但适配本身也需要时间。</p>
+                  </div>
+                </div>
+                <div class="mech-step">
+                  <span class="mech-num">03</span>
+                  <div>
+                    <h3>已有关系，变得更值得维护</h3>
+                    <p>老朋友知道你的时间表，合作有历史，沟通成本更低。当新关系变贵，维持旧关系就成了更稳妥的选择。合作，于是成了一种关系黏性。</p>
+                  </div>
+                </div>
+              </div>
+
+              <p>这不是说合作者更善良，也不是说背叛者突然改变了策略。变化发生在机会结构里：当时间不能无限扩张，关系就不能被无限替换。</p>
+
+              <p>论文在讨论部分写得很清楚：互动不是义务性的，而是自发性的。如果一个人的时间资源无法承担对方请求的时长，他别无选择，只能放弃这段互动。这实际上让他更难找到新伙伴。于是，现有关系被保留下来，合作也随之被保留下来。</p>
+
+              <blockquote class="pullquote">
+                当可用时间稀缺时，个体更可能通过合作来维持现有关系。
+                <cite>论文 Discussion · 中译</cite>
+              </blockquote>
+
+              <p>这个解释有一个微妙但重要的含义：合作并不总是“我为你好”。它也可能是一种在约束下对关系的投资。时间越有限，关系越像一种需要续费的资产。</p>
+            </section>
+
+            <section class="chapter" id="chapter-07">
+              <div class="chapter-head">
+                <p class="chapter-num">Chapter 07</p>
+                <h2>故事之外</h2>
+              </div>
+
+              <p>这项研究并不是终点。它用的是在线博弈实验，参与者以学生和会议参会者为主；时间上限、收益矩阵、网络规模都是被设计出来的。现实中的协作还夹杂着权力、情感、组织规则和长期记忆。</p>
+
+              <p>顺着这个框架，还可以问几个自然的问题：如果把奖励、惩罚、雪堆博弈、公共品博弈，或者交替博弈放进来，时间限制还会不会产生同样的效果？如果时间上限并不相等，合作会变成什么样？如果关系可以长期积累声誉，时间还会不会是最重要的约束？</p>
+
+              <p>这些问题暂时没有答案。但一个好的研究故事，往往不是给出一个句号，而是让一个原本不可见的东西变得可见。</p>
+
+              <p>在这则故事里，那个东西是时间。</p>
+
+              <div class="press-card">
+                <div class="press-source">
+                  <span>Media / 媒体视角</span>
+                  <span>集智俱乐部 · 2024.12.10</span>
+                </div>
+                <p class="press-title">《前沿进展：有限时间资源促进有结构协作系统的合作》</p>
+                <blockquote>
+                  “当协作时间对每个个体都同样是有限时，系统整体的合作水平将得到显著提升。”
+                </blockquote>
+                <div class="press-links">
+                  <a class="press-link" href="https://mp.weixin.qq.com/s/3OYQ2eCyygYReOuJUQQh7A" target="_blank" rel="noopener">阅读微信公众号原文 <span aria-hidden="true">↗</span></a>
+                  <a class="press-link" href="https://hub.baai.ac.cn/view/41706" target="_blank" rel="noopener">智源社区镜像 <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+
+              <p>这篇报道把论文的核心问题带给了更广泛的读者：在复杂多变的协作系统里，时间限制如何影响合作。报道也提醒我们，这项发现的价值不只在于解释过去，更在于为设计协作机制提供一种新的变量——不是更多的激励，而是更清晰的时间边界。</p>
+
+              <div class="paper-card">
+                <div class="paper-card-head">
+                  <span>Paper / 论文</span>
+                  <span>IEEE TNSE · 2025</span>
+                </div>
+                <div class="paper-card-body">
+                  <h3>Limitation of Time Promotes Cooperation in Structured Collaboration Systems</h3>
+                  <p class="paper-authors">Yichao Zhang, Jiasheng Wang, Guanghui Wen, Jihong Guan, Shuigeng Zhou, Guanrong Chen, Krishnendu Chatterjee, Matjaž Perc</p>
+                  <p class="paper-venue">IEEE Transactions on Network Science and Engineering, Vol. 12, No. 1, pp. 4–12, Jan./Feb. 2025. DOI: 10.1109/TNSE.2024.3481434</p>
+
+                  <div class="paper-actions">
+                    <a class="button button--small" href="https://doi.org/10.1109/TNSE.2024.3481434" target="_blank" rel="noopener">IEEE Xplore <span aria-hidden="true">↗</span></a>
+                    <a class="button button--small button--ghost" href="assets/paper/limitation-of-time.pdf" target="_blank" rel="noopener">PDF <span aria-hidden="true">↗</span></a>
+                    <a class="button button--small button--ghost" href="https://figshare.com/articles/dataset/Experimental_data_for_limitation_of_time_promotes_cooperation_in_structured_collaboration_systems_/24171927" target="_blank" rel="noopener">Data <span aria-hidden="true">↗</span></a>
+                  </div>
+
+                  <details class="paper-cite">
+                    <summary>BibTeX / 引用</summary>
+                    <pre>@article{zhang2025limitation,
+  title   = {Limitation of Time Promotes Cooperation in Structured Collaboration Systems},
+  author  = {Zhang, Yichao and Wang, Jiasheng and Wen, Guanghui and Guan, Jihong and Zhou, Shuigeng and Chen, Guanrong and Chatterjee, Krishnendu and Perc, Matja{\v{z}}},
+  journal = {IEEE Transactions on Network Science and Engineering},
+  volume  = {12},
+  number  = {1},
+  pages   = {4--12},
+  year    = {2025},
+  doi     = {10.1109/TNSE.2024.3481434}
+}</pre>
+                  </details>
+                </div>
+              </div>
+
+              <p class="story-credit">
+                本篇故事基于论文与公开报道编写。图 1、图 2、图 4 取自论文，版权归 IEEE 所有，此处用于研究与传播。论文 PDF 为作者提供的版本。概念演示中的界面与数值为交互设计，不是原始实验数据。
+              </p>
+
+              <div class="next-story">
+                <p class="eyebrow">Next story / 下一则</p>
+                <h2>当关系可以被预测，<br>我们会更愿意相信谁？</h2>
+                <p>关于链路预测，以及那些还没有发生的连接。第二则故事正在生长。</p>
+              </div>
+            </section>
+          </div>
+
+          <aside class="story-margin" aria-label="页边笔记">
+            <div class="margin-sticky">
+              <p class="margin-label">Field note / 001</p>
+              <p class="margin-quote">一天只有 24 小时。<br>这是唯一一种<br><em>无法赚回来的货币</em>。</p>
+              <div class="margin-data">
+                <span>One day <strong>24 h</strong></span>
+                <span>One round <strong>1,440 units</strong></span>
+                <span>One match <strong>60 sec</strong></span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap wrap--wide">
+      <div class="footer-cta">
+        <div>
+          <p class="eyebrow">Keep in touch / 联系</p>
+          <h2>有时间，<br>聊聊<em>合作</em>。</h2>
+        </div>
+        <div class="footer-contact">
+          <p>如果你对时序网络、演化博弈，或者把研究写成故事感兴趣，欢迎来信。好的问题，值得慢慢聊。</p>
+          <a class="email-link" href="mailto:yichaozhang@tongji.edu.cn">yichaozhang@tongji.edu.cn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Yichao's Lab · Shanghai</span>
+        <nav aria-label="页脚导航">
+          <a href="index.html">Lab</a>
+          <a href="story-001.html">Story 001</a>
+          <a href="index.html#publications">Publications</a>
+          <a href="mailto:yichaozhang@tongji.edu.cn">Email</a>
+        </nav>
+        <span>Made as a research notebook</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="图片预览" aria-hidden="true" hidden>
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <figure>
+      <img id="lightbox-img" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>
